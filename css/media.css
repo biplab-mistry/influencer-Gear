@@ -1,0 +1,42 @@
+@media (min-width:575px) and (max-width:768px) {
+
+    /* navbar part start */
+    nav ul{
+        display: none;
+    }
+    nav h3{
+      margin: 0 auto;
+    }
+    nav .fa-solid{
+        display: block;
+        margin: 8px;
+    }
+    /* banner part start */
+.banner-container{
+    flex-direction: column-reverse;
+    text-align: center;
+}   
+/* company section start here */
+.company-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    text-align: center;
+}
+.company-wrapper img{
+   
+  width: 20%;
+}
+
+/* popular section */
+.popular-wrapper{
+   grid-template-columns: repeat(1,1fr);
+   gap: 24px;
+}
+
+/* feature section start here */
+.feature-wrapper{
+    flex-direction:column-reverse;
+}
+
+}
